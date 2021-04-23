@@ -74,32 +74,47 @@ const ContactUs = (props) => {
                         <form onSubmit={onSubmit} className={styles.formContainer}>
 
                             {/* the following are inputs */}
-                            <div>
-                                {/* first name */}
-                                <label className={styles.label} htmlFor="firstName">First Name: </label>
-                                <input className={styles.input} type="text" required id="firstName" name="firstName" placeholder="First Name" /> <br />
+
+                            {/* name */}
+                            <h4>Your full name: </h4>
+                            {/* first name */}
+                            <label className={styles.label} htmlFor="firstName">First Name: </label>
+                            <input className={styles.input} type="text" required id="firstName" name="firstName" placeholder="First Name" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 {/* last name */}
-                                <label className={styles.label} htmlFor="lastName">Last Name: </label>
-                                <input className={styles.input} type="text" required id="lastName" name="lastName" placeholder="Last Name" /> <br />
-                                {/* email */}
-                                <label className={styles.label} htmlFor="email">Email: </label>
-                                <input className={styles.input} type="email" required id="email" name="email" placeholder="Email" /> <br />
-                                {/* telephone */}
-                                <label className={styles.label} htmlFor="telephone">Telephone: </label>
-                                <input className={styles.input} type="telephone" id="telephone" name="telephone" placeholder="Telephone" /> <br />
-                                {/* address */}
-                                <label className={styles.label} htmlFor="address">Address: </label>
-                                <input className={styles.input} type="text" required id="address" name="address" placeholder="Address" /> <br />
-                            </div>
+                            <label className={styles.label} htmlFor="lastName">Last Name: </label>
+                            <input className={styles.input} type="text" required id="lastName" name="lastName" placeholder="Last Name" /> <br />
+
+                            {/* contact information*/}
+                            <h4>Your contact information: </h4>
+                            {/* email */}
+                            <label className={styles.label} htmlFor="email">Email: </label>
+                            <input className={styles.input} type="email" required id="email" name="email" placeholder="Email" /> <br />
+                            {/* telephone */}
+                            <label className={styles.label} htmlFor="telephone">Telephone: </label>
+                            <input className={styles.input} type="telephone" id="telephone" name="telephone" placeholder="Telephone" /> <br />
+                            {/* address */}
+                            <label className={styles.label} htmlFor="address">Address: </label>
+                            <input className={styles.input} type="text" required id="address" name="address" placeholder="Address" /> <br />
+
+
+                            {/* educational background, radio button */}
+                            <h4>Your educational background: </h4>
+                            {/* <div> */}
+                            <label className={styles.label} htmlFor="educationBackground">Your Educational Background: </label>
+                            <label htmlFor="undergraduate">Undergraduate</label><input type="radio" name="educationBackground" id="undergraduate" value="Undergraduate" defaultChecked />&nbsp;&nbsp;&nbsp;
+                            <label htmlFor="graduate">Graduate</label><input type="radio" name="educationBackground" id="graduate" value="Graduate" />&nbsp;&nbsp;&nbsp;
+                            <label htmlFor="phd">PhD</label><input type="radio" name="educationBackground" id="phd" value="PhD" />
+                            {/* </div> */}
 
                             {/* dropdowns: deparatment and program*/}
+                            <h4>The program you are interested in: </h4>
                             <label className={styles.label} htmlFor="department">Prefer Department</label>&nbsp;
                             <select className={styles.select} id="department" name="department" value={selectDepartment} onChange={changeDepartment.bind(this)}>
                                 <optgroup>
                                     <option value="department" defaultValue>Choose a department</option>
                                     {displayDepartment}
                                 </optgroup>
-                            </select><br />
+                            </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <label className={styles.label} htmlFor="program">Prefer Program</label>&nbsp;
                             <select className={styles.select} id="program" name="program" value={selectProgram} onChange={changeProgram.bind(this)}>
                                 <optgroup>
@@ -108,17 +123,8 @@ const ContactUs = (props) => {
                                 </optgroup>
                             </select> <br />
 
-                            {/* radio button */}
-                            <div>
-                                <label className={styles.label} htmlFor="educationBackground">Your Educational Background: </label>
-
-                                <label htmlFor="undergraduate">Undergraduate</label><input type="radio" name="educationBackground" id="undergraduate" value="Undergraduate" defaultChecked />&nbsp;&nbsp;&nbsp;
-                                <label htmlFor="graduate">Graduate</label><input type="radio" name="educationBackground" id="graduate" value="Graduate" />&nbsp;&nbsp;&nbsp;
-                                <label htmlFor="phd">PhD</label><input type="radio" name="educationBackground" id="phd" value="PhD" />
-                            </div>
-
                             {/* form submit button */}
-                            <input className={styles.btn} type="submit" value="Get in Touch" />
+                            <h4><input className={styles.btn} type="submit" value="Get in Touch" /></h4>
                         </form>
                     </>
                 )

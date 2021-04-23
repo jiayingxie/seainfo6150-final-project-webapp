@@ -14,87 +14,138 @@ exports[`ContactUs tests renders correctly when passed a data prop 1`] = `
     <form
       class="formContainer"
     >
-      <div>
-        <label
-          class="label"
-          for="firstName"
-        >
-          First Name: 
-        </label>
-        <input
-          class="input"
-          id="firstName"
-          name="firstName"
-          placeholder="First Name"
-          required=""
-          type="text"
-        />
-         
-        <br />
-        <label
-          class="label"
-          for="lastName"
-        >
-          Last Name: 
-        </label>
-        <input
-          class="input"
-          id="lastName"
-          name="lastName"
-          placeholder="Last Name"
-          required=""
-          type="text"
-        />
-         
-        <br />
-        <label
-          class="label"
-          for="email"
-        >
-          Email: 
-        </label>
-        <input
-          class="input"
-          id="email"
-          name="email"
-          placeholder="Email"
-          required=""
-          type="email"
-        />
-         
-        <br />
-        <label
-          class="label"
-          for="telephone"
-        >
-          Telephone: 
-        </label>
-        <input
-          class="input"
-          id="telephone"
-          name="telephone"
-          placeholder="Telephone"
-          type="telephone"
-        />
-         
-        <br />
-        <label
-          class="label"
-          for="address"
-        >
-          Address: 
-        </label>
-        <input
-          class="input"
-          id="address"
-          name="address"
-          placeholder="Address"
-          required=""
-          type="text"
-        />
-         
-        <br />
-      </div>
+      <h4>
+        Your full name: 
+      </h4>
+      <label
+        class="label"
+        for="firstName"
+      >
+        First Name: 
+      </label>
+      <input
+        class="input"
+        id="firstName"
+        name="firstName"
+        placeholder="First Name"
+        required=""
+        type="text"
+      />
+           
+      <label
+        class="label"
+        for="lastName"
+      >
+        Last Name: 
+      </label>
+      <input
+        class="input"
+        id="lastName"
+        name="lastName"
+        placeholder="Last Name"
+        required=""
+        type="text"
+      />
+       
+      <br />
+      <h4>
+        Your contact information: 
+      </h4>
+      <label
+        class="label"
+        for="email"
+      >
+        Email: 
+      </label>
+      <input
+        class="input"
+        id="email"
+        name="email"
+        placeholder="Email"
+        required=""
+        type="email"
+      />
+       
+      <br />
+      <label
+        class="label"
+        for="telephone"
+      >
+        Telephone: 
+      </label>
+      <input
+        class="input"
+        id="telephone"
+        name="telephone"
+        placeholder="Telephone"
+        type="telephone"
+      />
+       
+      <br />
+      <label
+        class="label"
+        for="address"
+      >
+        Address: 
+      </label>
+      <input
+        class="input"
+        id="address"
+        name="address"
+        placeholder="Address"
+        required=""
+        type="text"
+      />
+       
+      <br />
+      <h4>
+        Your educational background: 
+      </h4>
+      <label
+        class="label"
+        for="educationBackground"
+      >
+        Your Educational Background: 
+      </label>
+      <label
+        for="undergraduate"
+      >
+        Undergraduate
+      </label>
+      <input
+        checked=""
+        id="undergraduate"
+        name="educationBackground"
+        type="radio"
+        value="Undergraduate"
+      />
+         
+      <label
+        for="graduate"
+      >
+        Graduate
+      </label>
+      <input
+        id="graduate"
+        name="educationBackground"
+        type="radio"
+        value="Graduate"
+      />
+         
+      <label
+        for="phd"
+      >
+        PhD
+      </label>
+      <input
+        id="phd"
+        name="educationBackground"
+        type="radio"
+        value="PhD"
+      />
+      <h4>
+        The program you are interested in: 
+      </h4>
       <label
         class="label"
         for="department"
@@ -133,7 +184,7 @@ exports[`ContactUs tests renders correctly when passed a data prop 1`] = `
           </option>
         </optgroup>
       </select>
-      <br />
+           
       <label
         class="label"
         for="program"
@@ -156,55 +207,13 @@ exports[`ContactUs tests renders correctly when passed a data prop 1`] = `
       </select>
        
       <br />
-      <div>
-        <label
-          class="label"
-          for="educationBackground"
-        >
-          Your Educational Background: 
-        </label>
-        <label
-          for="undergraduate"
-        >
-          Undergraduate
-        </label>
+      <h4>
         <input
-          checked=""
-          id="undergraduate"
-          name="educationBackground"
-          type="radio"
-          value="Undergraduate"
+          class="btn"
+          type="submit"
+          value="Get in Touch"
         />
-           
-        <label
-          for="graduate"
-        >
-          Graduate
-        </label>
-        <input
-          id="graduate"
-          name="educationBackground"
-          type="radio"
-          value="Graduate"
-        />
-           
-        <label
-          for="phd"
-        >
-          PhD
-        </label>
-        <input
-          id="phd"
-          name="educationBackground"
-          type="radio"
-          value="PhD"
-        />
-      </div>
-      <input
-        class="btn"
-        type="submit"
-        value="Get in Touch"
-      />
+      </h4>
     </form>
   </div>
 </div>

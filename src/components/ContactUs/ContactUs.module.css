@@ -9,9 +9,17 @@
     color: #666;
 }
 
+.container h2 {
+    color: black;
+}
+
 /* style of the form */
 .formContainer {
     font-size: 20px;
+}
+
+.formContainer h4{
+    color: black;
 }
 
 /* style of the labels in form */
