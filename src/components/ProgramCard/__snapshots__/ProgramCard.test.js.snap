@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgramCard tests renders correctly when passed a department prop and program props 1`] = `
+<div>
+  <li
+    class="container"
+  >
+    <div
+      class="card"
+    >
+      <h2>
+        CSECS
+      </h2>
+      <h4
+        class="link"
+      >
+        <a
+          href="/engineering/multidisciplinary/CSECS"
+        >
+          Computer Systems Engineering with Concentration in Software Design Engineering
+        </a>
+      </h4>
+    </div>
+  </li>
+</div>
+`;

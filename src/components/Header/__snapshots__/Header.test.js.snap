@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header tests renders correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <span
+      class="neu"
+    >
+       Northeastern University 
+    </span>
+    <hr />
+    <span
+      class="coe"
+    >
+      COLLEGE OF ENGINEERING
+    </span>
+  </div>
+</div>
+`;

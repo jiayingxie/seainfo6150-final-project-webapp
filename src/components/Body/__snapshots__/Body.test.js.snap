@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Body tests renders correctly when passed a data prop 1`] = `
+<div>
+  <header>
+    <nav>
+      <div
+        class="navBar"
+      >
+        <a
+          href="/engineering/multidisciplinary"
+        >
+          multidisciplinary
+        </a>
+        <a
+          href="/engineering/civilenvironmental"
+        >
+          civilenvironmental
+        </a>
+        <a
+          href="/engineering/bioengineering"
+        >
+          bioengineering
+        </a>
+        <a
+          href="/engineering/chemical"
+        >
+          chemical
+        </a>
+        <a
+          href="/engineering/electricalcomputer"
+        >
+          electricalcomputer
+        </a>
+        <a
+          href="/engineering/mechanicalindustrial"
+        >
+          mechanicalindustrial
+        </a>
+      </div>
+    </nav>
+  </header>
+  <div>
+    <div
+      class="displayShow"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactUs tests renders correctly when passed a data prop 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <h2>
+      You are ready to get started. We are ready to help.
+    </h2>
+    <p>
+      We're here to answer your questions about graduate school. To receive additional information about this program and speak with a member of our team, complete the form below.
+    </p>
+    <form
+      class="formContainer"
+    >
+      <div>
+        <label
+          class="label"
+          for="firstName"
+        >
+          First Name: 
+        </label>
+        <input
+          class="input"
+          id="firstName"
+          name="firstName"
+          placeholder="First Name"
+          required=""
+          type="text"
+        />
+         
+        <br />
+        <label
+          class="label"
+          for="lastName"
+        >
+          Last Name: 
+        </label>
+        <input
+          class="input"
+          id="lastName"
+          name="lastName"
+          placeholder="Last Name"
+          required=""
+          type="text"
+        />
+         
+        <br />
+        <label
+          class="label"
+          for="email"
+        >
+          Email: 
+        </label>
+        <input
+          class="input"
+          id="email"
+          name="email"
+          placeholder="Email"
+          required=""
+          type="email"
+        />
+         
+        <br />
+        <label
+          class="label"
+          for="telephone"
+        >
+          Telephone: 
+        </label>
+        <input
+          class="input"
+          id="telephone"
+          name="telephone"
+          placeholder="Telephone"
+          type="telephone"
+        />
+         
+        <br />
+        <label
+          class="label"
+          for="address"
+        >
+          Address: 
+        </label>
+        <input
+          class="input"
+          id="address"
+          name="address"
+          placeholder="Address"
+          required=""
+          type="text"
+        />
+         
+        <br />
+      </div>
+      <label
+        class="label"
+        for="department"
+      >
+        Prefer Department
+      </label>
+       
+      <select
+        class="select"
+        id="department"
+        name="department"
+      >
+        <optgroup>
+          <option
+            value="department"
+          >
+            Choose a department
+          </option>
+          <option>
+            multidisciplinary
+          </option>
+          <option>
+            civilenvironmental
+          </option>
+          <option>
+            bioengineering
+          </option>
+          <option>
+            chemical
+          </option>
+          <option>
+            electricalcomputer
+          </option>
+          <option>
+            mechanicalindustrial
+          </option>
+        </optgroup>
+      </select>
+      <br />
+      <label
+        class="label"
+        for="program"
+      >
+        Prefer Program
+      </label>
+       
+      <select
+        class="select"
+        id="program"
+        name="program"
+      >
+        <optgroup>
+          <option
+            value="program"
+          >
+            Choose a program
+          </option>
+        </optgroup>
+      </select>
+       
+      <br />
+      <div>
+        <label
+          class="label"
+          for="educationBackground"
+        >
+          Your Educational Background: 
+        </label>
+        <label
+          for="undergraduate"
+        >
+          Undergraduate
+        </label>
+        <input
+          checked=""
+          id="undergraduate"
+          name="educationBackground"
+          type="radio"
+          value="Undergraduate"
+        />
+           
+        <label
+          for="graduate"
+        >
+          Graduate
+        </label>
+        <input
+          id="graduate"
+          name="educationBackground"
+          type="radio"
+          value="Graduate"
+        />
+           
+        <label
+          for="phd"
+        >
+          PhD
+        </label>
+        <input
+          id="phd"
+          name="educationBackground"
+          type="radio"
+          value="PhD"
+        />
+      </div>
+      <input
+        class="btn"
+        type="submit"
+        value="Get in Touch"
+      />
+    </form>
+  </div>
+</div>
+`;

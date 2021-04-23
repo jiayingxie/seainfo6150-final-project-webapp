@@ -1,0 +1,78 @@
+/* style of the outside div container */
+.container {
+    margin: 0 10px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    
+    color: #666;
+}
+
+/* style of the form */
+.formContainer {
+    font-size: 20px;
+}
+
+/* style of the labels in form */
+.formContainer .label {
+    color: black;
+}
+
+/* style of the inputs in form */
+.formContainer .input{
+    padding: 4px 7px;
+    margin: 2px;
+
+    height: 20px;
+    font-size: 20px;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.formContainer .input:focus {
+    outline: none;
+    font-size: 28px;
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+/* style of the submitt button in form */
+.formContainer .btn {
+    display: inline-block;
+
+    margin-bottom: 0;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: wheat;
+
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+
+    cursor: pointer;
+}
+
+.formContainer .btn:focus {
+    line-height: 30px;
+    font-size: 28px;
+}
+
+.formContainer .select {
+    font-size: 20px;
+}
+.formContainer .select:focus {
+    font-size: 28px;
+    
+    outline: none;
+
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+/* style of the information to tell people that their form is submitted */
+.displayInformation {
+    font-weight: bold;
+    color: black;
+}

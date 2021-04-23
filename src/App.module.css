@@ -1,0 +1,20 @@
+/* style of a links */
+.link {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: blue;
+}
+.link:hover {
+    font-size: 1.5em;
+}
+
+/* this is aimd to the sub components of App */
+a {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: blue;
+}
+a:hover {
+    font-size: 1.5em;
+}
+

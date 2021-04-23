@@ -1,0 +1,30 @@
+.container{
+    background-image: linear-gradient(to right, rgba(102,169,201, 0.8), #eee 20%);
+    border: 1px solid #668B8B;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.3);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.card {
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.card h2 {
+    width: 100%;
+    font-family: Georgia, Times, sans-serif;
+    margin: 10px 0;
+}
+
+.card h4 {
+    margin: 10px 0;
+}
+
+.card .link {
+    width: 100%;
+}

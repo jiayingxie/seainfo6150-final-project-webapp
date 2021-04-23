@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorPage tests renders correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <h1>
+      Sorry, could not find the page.
+    </h1>
+    <h2>
+      Go back to the 
+      <a
+        href="/"
+      >
+        HOME
+      </a>
+       page.
+    </h2>
+    <div
+      class="container"
+    >
+      <h1>
+        Welcome to Graduate, College of Engineering
+      </h1>
+       
+      <br />
+      <img
+        alt="tree frog"
+        class="image"
+        src="treefrog.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;

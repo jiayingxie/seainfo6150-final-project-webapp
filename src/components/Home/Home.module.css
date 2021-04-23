@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container h1{
+    margin: 0 auto;
+    font-size: 1em;
+}
+
+.container .image {
+    width: 70%;
+    height: auto;
+}
+
+@media (min-width: 600px) {
+    .container h1{
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 900px) {
+    .container h1{
+        font-size: 2em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container h1{
+        font-size: 2.5em;
+    }
+}

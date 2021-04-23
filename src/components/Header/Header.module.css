@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(123, 181, 240);
+}
+
+.neu {
+    font-family: cursive, sans-serif;
+    color: #c00;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.coe {
+    font-family: Georgia, Times, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
